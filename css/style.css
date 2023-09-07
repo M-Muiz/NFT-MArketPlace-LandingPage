@@ -1,0 +1,390 @@
+@font-face {
+    font-family: custom;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: custom;
+    color: #fff;
+    cursor: default;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #1b1d30;
+}
+
+.changeNavColor {
+    background-color: #242940 !important;
+    padding: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+#main {
+    padding: 2px 14vw;
+    position: relative;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 2.5vw;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    color: #ab0a5a;
+}
+
+.text {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff !important;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.text:hover {
+    opacity: .9;
+    border-color: #ab0a5a;
+}
+
+.customBtn {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #ab0a5a;
+    cursor: pointer;
+}
+
+.customBtn:hover {
+    background-color: #ab0a5a;
+}
+
+span.bigText {
+    color: #ab0a5a;
+    font-size: 3em;
+}
+
+#content {
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    color: #fff;
+}
+
+#about {
+    margin-top: 60px;
+    padding: 20px;
+    border: 2px solid #ab0a5a;
+    border-radius: 6px;
+    height: auto;
+}
+
+.heading {
+    margin: 10px 0;
+    color: #ab0a5a;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 20px;
+}
+
+.summary {
+    padding: 8px 50px;
+    margin-top: 20px;
+    font-weight: 200;
+    opacity: .8;
+}
+
+#topSell {
+    margin-top: 50px;
+}
+
+.customcard {
+    height: 520px;
+    width: 360px;
+    border: 1px solid #ab0a5a;
+    border-radius: 6px;
+}
+
+.image {
+    height: 300px;
+    margin: auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.color {
+    color: #ab0a5a;
+}
+
+.details {
+    margin-top: 7px;
+    padding: 12px;
+}
+
+.bid {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 20px;
+}
+
+#characters {
+    margin-top: 50px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+#contact {
+    margin-top: 8px;
+    padding: 30px 10px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-text {
+    margin: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ab0a5a;
+}
+
+.contact-text h4 {
+    line-height: 1;
+    color: #fff;
+    margin-top: 4px;
+}
+
+.contact-text p {
+    color: #fff;
+    font-size: var(--p-font);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.list {
+    margin-bottom: 2.8rem;
+}
+
+.list li {
+    margin-bottom: 12px;
+
+}
+
+.list li a {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    transition: all .45s ease;
+}
+
+.list li a:hover {
+    color: #ab0a5a;
+    transform: translateX(5px);
+}
+
+.contact-icons i {
+    width: 45px;
+    height: 45px;
+    font-size: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 15px;
+    background-color: #ab0a5a;
+    color: #fff;
+    cursor: pointer;
+    transition: all .45s ease;
+}
+
+.contact-icons i:hover {
+    background-color: #fff;
+    color: #242940;
+}
+
+.contact-form {
+    position: relative;
+}
+
+.contact-form form input,
+form textarea {
+    width: 100%;
+    padding: 14px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ab0a5a;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 240px;
+}
+
+.contact-form .submit {
+    display: inline-block;
+    font-size: 16px;
+    width: 160px;
+    transition: all .45 ease;
+}
+
+.contact-form .submit:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #ab0a5a;
+}
+
+.HandleColor{
+    background-color: #fff;
+    padding: 2px 6px;
+}
+
+
+#topBtn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 200px;
+    bottom: 8px;
+    border: 1px solid #ab0a5a;
+}
+
+#topBtn i {
+    color: #242940;
+    cursor: pointer;
+    font-size: 30px;
+}
+#topBtn:hover{
+    background-color: #ab0a5a;
+    color: #fff;
+}
+
+#footer {
+    border: 1px solid #ab0a5a;
+    height: 220px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}
+
+.custom-footer {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.customBox {
+    display: flex;
+}
+
+@media only screen and (max-width: 1115px) {
+    #content {
+        flex-direction: column-reverse;
+    }
+
+    #image {
+        text-align: center;
+    }
+
+    .summary {
+        padding: 8px 10px;
+        ;
+        font-size: 14px;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center !important;
+        gap: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1005px) {
+    .custom-footer {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    #footer {
+        height: 330px;
+    }
+
+    #image {
+        width: 100%;
+    }
+
+    #image img {
+        width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 680px) {
+    #footer {
+        height: 440px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customBox {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .customBtn {
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    .customBtn {
+        font-size: 7px;
+    }
+
+    #footer {
+        height: 480px;
+    }
+}
